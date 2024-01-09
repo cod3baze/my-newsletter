@@ -38,7 +38,7 @@ export function SubscribeForm() {
 
   return (
     <form
-      className="flex flex-col gap-4 mt-4 transition-all"
+      className="flex flex-col gap-4 mt-2 transition-all"
       onSubmit={handleSubmit(onSubscribe)}
     >
       <div className="flex flex-col gap-2">
